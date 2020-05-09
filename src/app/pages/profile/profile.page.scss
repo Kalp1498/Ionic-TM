@@ -1,0 +1,28 @@
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+}
+
+ion-list {
+    margin-top: 10px;
+    ion-list-header {
+        font-size: 15px;
+        color: #7f7f7f;
+        .username {
+            font-size: 1.5em;
+            padding-left: 15px;
+            padding-top: 20px;
+        }
+        .edit {
+            height: 20px;
+            width: 20px;
+            margin-left: 10px;
+        }
+    }
+    ion-label {
+        padding-left: 5px;
+    }
+}

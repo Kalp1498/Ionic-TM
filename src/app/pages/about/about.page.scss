@@ -1,0 +1,20 @@
+ion-content {
+    .about {
+        padding: 20px;
+        .title {
+            margin: 0px;
+            color: #517a9f;
+        }
+        .welcome {
+            margin-top: 10px;
+            text-align: unset !important;
+            a {
+                color: #517a9f;
+            }
+        }
+        p {
+            text-align: justify;
+            font-size: 17px;
+        }
+    }
+}

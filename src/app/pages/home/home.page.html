@@ -1,0 +1,21 @@
+<ion-header #header>
+    <ion-toolbar>
+        <ion-buttons>
+            <ion-menu-button slot="start"></ion-menu-button>
+            <ion-title>
+                ThanksMummy
+            </ion-title>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-toolbar>
+    <app-category></app-category>
+</ion-toolbar>
+
+<app-menu></app-menu>
+<ion-content [scrollEvents]="true" (ionScroll)="logScrolling($event)" (ionScrollStart)="scrollStart(header)">
+    <div class="story">
+        <app-story-list></app-story-list>
+    </div>
+</ion-content>
